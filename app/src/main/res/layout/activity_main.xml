@@ -18,12 +18,12 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/btnSetAlarmLabel"
         android:id="@+id/btnSetAlarm"
-        android:layout_below="@+id/timePicker"
+        android:onClick="onClickSetAlarmBtn"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="79dp"
-        android:onClick="onClickSetAlarmBtn" />
+        android:layout_marginBottom="63dp" />
 </RelativeLayout>
